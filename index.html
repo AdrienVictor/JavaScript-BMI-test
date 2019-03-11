@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BMI using JS - Adrien</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="bmi-test">
+      <div class="bmi-info">
+        <form class="bmi-inputs" action="">
+          <input
+            class="mass"
+            type="number"
+            step="0.01"
+            min="1"
+            placeholder="Mass in Kilogram"
+            required
+          />
+          <input
+            class="height"
+            type="number"
+            step="0.01"
+            min="0.01"
+            placeholder="Height in Meter"
+            required
+          />
+          <button>Calculate</button>
+        </form>
+        <p class="values"></p>
+      </div>
+      <div class="bmi-results">
+        <div class="result-image">
+          <img class="image" src="./assets/default.jpg" alt="default" />
+        </div>
+        <div class="result"></div>
+      </div>
+    </section>
+    <script src="./bmi.js"></script>
+  </body>
+</html>
