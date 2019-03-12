@@ -21,10 +21,10 @@ const bmi = [
   {
     text: 'Obese: BMI is 30 or more',
     src: './assets/obese.jpg',
-    color: 'red'
+    color: 'rgba(255,0,0,0.5)'
   }
 ];
-
+const bmiTest = document.querySelector('.bmi-test');
 const mass = document.querySelector('.mass');
 const height = document.querySelector('.height');
 const bmiInputs = document.querySelector('.bmi-inputs');
